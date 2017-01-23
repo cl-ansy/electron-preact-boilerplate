@@ -14,7 +14,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "start": "cross-env NODE_ENV=development electron ."
   },
   "repository": {
     "type": "git",
@@ -27,8 +28,11 @@
   },
   "homepage": "https://github.com/cslansing/electron-preact-boilerplate#readme",
   "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "cross-env": "^3.1.4",
     "electron": "^1.4.15",
     "electron-builder": "^11.5.1",
+    "electron-debug": "^1.1.0",
     "eslint": "^3.14.0",
     "eslint-config-airbnb": "^14.0.0",
     "eslint-plugin-import": "^2.2.0",

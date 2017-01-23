@@ -26,6 +26,7 @@
     "no-param-reassign": 0,
     "no-script-url": 0,
     "no-underscore-dangle": 1,
+    "no-unused-vars": [0, { "varsIgnorePattern": "^h$" }],
     "no-use-before-define": 2,
     "object-shorthand": 0,
     "prefer-spread": 2,
@@ -42,6 +43,7 @@
     "react/jsx-no-bind": 0,
     "react/prefer-stateless-function": 0,
     "react/prop-types": 2,
+    "react/react-in-jsx-scope": 0,
     "wrap-iife": [1, "any"]
   },
   "plugins": [
