@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "productName": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "release"
+  },
+  "author": "Chris Lansing",
+  "license": "MIT",
+  "dependencies": {}
+}

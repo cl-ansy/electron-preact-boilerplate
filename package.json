@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "app/main.js",
+  "build": {
+    "productName": "",
+    "appId": "",
+    "linux": {},
+    "mac": {},
+    "win": {}
+  },
   "directories": {
     "test": "test"
   },
@@ -20,6 +27,8 @@
   },
   "homepage": "https://github.com/cslansing/electron-preact-boilerplate#readme",
   "devDependencies": {
+    "electron": "^1.4.15",
+    "electron-builder": "^11.5.1",
     "eslint": "^3.14.0",
     "eslint-config-airbnb": "^14.0.0",
     "eslint-plugin-import": "^2.2.0",
